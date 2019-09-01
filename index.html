@@ -219,20 +219,11 @@
 @import url('https://fonts.googleapis.com/css?family=Muli|Noto+Sans|Noto+Sans+JP|Nunito|Ubuntu&display=swap');
 </style>
 <style>
-p::selection {
-  background: lightgreen;
-}
-h2::selection {
-  background: lightgreen;
-}
-h3::selection {
-  background: lightgreen;
-}
-h6::selection {
+::-moz-selection { /* Code for Firefox */
   background: lightgreen;
 }
 ::selection {
-  color: lightgreen;
+  background: lightgreen;
 }
 </style>
 	</head>
